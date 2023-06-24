@@ -4,5 +4,6 @@ module.exports = {
   solve: function (A) {
     const sqrt = Math.sqrt(A);
     return sqrt % 1 === 0 ? sqrt : -1;
+    //haha
   },
 };
